@@ -1,0 +1,22 @@
+.button {
+  border: none;
+  outline: none;
+  padding: 8px;
+  width: 100%;
+  padding-inline: 1.5rem;
+  padding-block: 0.75rem;
+  font-size: medium;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  transition: all 100ms;
+  color: white;
+  cursor: pointer;
+}
+.button.primary-button {
+  background-color: #e1034d;
+}
+
+.button:active {
+  scale: 0.95;
+  color: black;
+}/*# sourceMappingURL=button.css.map */
